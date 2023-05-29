@@ -1,9 +1,3 @@
-const { constructBinaryTree } = require('./helper_binarytree.js');
-
-const values = [3,9,20,null,null,15,7];
-const root = constructBinaryTree(values);
-
-
 function inOrderTraversal(root){
     let re=[];
     const helper = (root,re)=>{
@@ -18,4 +12,4 @@ function inOrderTraversal(root){
     return re;
 }
 
-console.log(JSON.stringify(inOrderTraversal(root)));
+module.exports = { inOrderTraversal };

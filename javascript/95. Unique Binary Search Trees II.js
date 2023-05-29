@@ -1,10 +1,4 @@
-const { TreeNode, constructBinaryTree } = require('./helper_binarytree.js');
-
-const values = [3, 9, 20, null, null, 15, 7];
-const root = constructBinaryTree(values);
-
-
-
+const { TreeNode } = require('./helper_binarytree.js');
 function generateTrees(n) {
     if (n === 0) {
         return [];
@@ -39,4 +33,4 @@ function generateTreesRecursive(start, end) {
 }
 
 
-console.log(JSON.stringify(generateTrees(2)))
+module.exports = { generateTrees };

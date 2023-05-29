@@ -1,0 +1,14 @@
+{
+    "name": "leetcode-javascript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Alex",
+    "license": "MIT",
+    "scripts": {
+        "test": "jest",
+        "start": "node index.js"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0"
+    }
+}
