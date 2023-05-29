@@ -41,4 +41,4 @@ function constructBinaryTree(array) {
   return root;
 }
 
-module.exports = { constructBinaryTree };
+module.exports = { TreeNode,constructBinaryTree };
